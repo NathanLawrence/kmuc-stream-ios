@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //Load URL into object webView
+    NSURL *url = [NSURL URLWithString:@"http://www.kmuc.org"];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
