@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90FCD9F11C1F2596006728DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FCD9F01C1F2596006728DA /* main.m */; };
+		90FCD9F41C1F2596006728DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FCD9F31C1F2596006728DA /* AppDelegate.m */; };
+		90FCD9F71C1F2596006728DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FCD9F61C1F2596006728DA /* ViewController.m */; };
+		90FCD9FA1C1F2597006728DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FCD9F81C1F2597006728DA /* Main.storyboard */; };
+		90FCD9FC1C1F2597006728DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FCD9FB1C1F2597006728DA /* Assets.xcassets */; };
+		90FCD9FF1C1F2597006728DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FCD9FD1C1F2597006728DA /* LaunchScreen.storyboard */; };
+		90FCDA0A1C1F2597006728DA /* kmuc_streamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FCDA091C1F2597006728DA /* kmuc_streamTests.m */; };
+		90FCDA151C1F2597006728DA /* kmuc_streamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FCDA141C1F2597006728DA /* kmuc_streamUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90FCDA061C1F2597006728DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90FCD9E41C1F2596006728DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90FCD9EB1C1F2596006728DA;
+			remoteInfo = "kmuc-stream";
+		};
+		90FCDA111C1F2597006728DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90FCD9E41C1F2596006728DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90FCD9EB1C1F2596006728DA;
+			remoteInfo = "kmuc-stream";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90FCD9EC1C1F2596006728DA /* kmuc-stream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kmuc-stream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FCD9F01C1F2596006728DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90FCD9F21C1F2596006728DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90FCD9F31C1F2596006728DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90FCD9F51C1F2596006728DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90FCD9F61C1F2596006728DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90FCD9F91C1F2597006728DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90FCD9FB1C1F2597006728DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90FCD9FE1C1F2597006728DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90FCDA001C1F2597006728DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90FCDA051C1F2597006728DA /* kmuc-streamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kmuc-streamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FCDA091C1F2597006728DA /* kmuc_streamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kmuc_streamTests.m; sourceTree = "<group>"; };
+		90FCDA0B1C1F2597006728DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90FCDA101C1F2597006728DA /* kmuc-streamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kmuc-streamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FCDA141C1F2597006728DA /* kmuc_streamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kmuc_streamUITests.m; sourceTree = "<group>"; };
+		90FCDA161C1F2597006728DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90FCD9E91C1F2596006728DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FCDA021C1F2597006728DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FCDA0D1C1F2597006728DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90FCD9E31C1F2596006728DA = {
+			isa = PBXGroup;
+			children = (
+				90FCD9EE1C1F2596006728DA /* kmuc-stream */,
+				90FCDA081C1F2597006728DA /* kmuc-streamTests */,
+				90FCDA131C1F2597006728DA /* kmuc-streamUITests */,
+				90FCD9ED1C1F2596006728DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90FCD9ED1C1F2596006728DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90FCD9EC1C1F2596006728DA /* kmuc-stream.app */,
+				90FCDA051C1F2597006728DA /* kmuc-streamTests.xctest */,
+				90FCDA101C1F2597006728DA /* kmuc-streamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90FCD9EE1C1F2596006728DA /* kmuc-stream */ = {
+			isa = PBXGroup;
+			children = (
+				90FCD9F21C1F2596006728DA /* AppDelegate.h */,
+				90FCD9F31C1F2596006728DA /* AppDelegate.m */,
+				90FCD9F51C1F2596006728DA /* ViewController.h */,
+				90FCD9F61C1F2596006728DA /* ViewController.m */,
+				90FCD9F81C1F2597006728DA /* Main.storyboard */,
+				90FCD9FB1C1F2597006728DA /* Assets.xcassets */,
+				90FCD9FD1C1F2597006728DA /* LaunchScreen.storyboard */,
+				90FCDA001C1F2597006728DA /* Info.plist */,
+				90FCD9EF1C1F2596006728DA /* Supporting Files */,
+			);
+			path = "kmuc-stream";
+			sourceTree = "<group>";
+		};
+		90FCD9EF1C1F2596006728DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90FCD9F01C1F2596006728DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90FCDA081C1F2597006728DA /* kmuc-streamTests */ = {
+			isa = PBXGroup;
+			children = (
+				90FCDA091C1F2597006728DA /* kmuc_streamTests.m */,
+				90FCDA0B1C1F2597006728DA /* Info.plist */,
+			);
+			path = "kmuc-streamTests";
+			sourceTree = "<group>";
+		};
+		90FCDA131C1F2597006728DA /* kmuc-streamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90FCDA141C1F2597006728DA /* kmuc_streamUITests.m */,
+				90FCDA161C1F2597006728DA /* Info.plist */,
+			);
+			path = "kmuc-streamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90FCD9EB1C1F2596006728DA /* kmuc-stream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90FCDA191C1F2597006728DA /* Build configuration list for PBXNativeTarget "kmuc-stream" */;
+			buildPhases = (
+				90FCD9E81C1F2596006728DA /* Sources */,
+				90FCD9E91C1F2596006728DA /* Frameworks */,
+				90FCD9EA1C1F2596006728DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kmuc-stream";
+			productName = "kmuc-stream";
+			productReference = 90FCD9EC1C1F2596006728DA /* kmuc-stream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90FCDA041C1F2597006728DA /* kmuc-streamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90FCDA1C1C1F2597006728DA /* Build configuration list for PBXNativeTarget "kmuc-streamTests" */;
+			buildPhases = (
+				90FCDA011C1F2597006728DA /* Sources */,
+				90FCDA021C1F2597006728DA /* Frameworks */,
+				90FCDA031C1F2597006728DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90FCDA071C1F2597006728DA /* PBXTargetDependency */,
+			);
+			name = "kmuc-streamTests";
+			productName = "kmuc-streamTests";
+			productReference = 90FCDA051C1F2597006728DA /* kmuc-streamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90FCDA0F1C1F2597006728DA /* kmuc-streamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90FCDA1F1C1F2597006728DA /* Build configuration list for PBXNativeTarget "kmuc-streamUITests" */;
+			buildPhases = (
+				90FCDA0C1C1F2597006728DA /* Sources */,
+				90FCDA0D1C1F2597006728DA /* Frameworks */,
+				90FCDA0E1C1F2597006728DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90FCDA121C1F2597006728DA /* PBXTargetDependency */,
+			);
+			name = "kmuc-streamUITests";
+			productName = "kmuc-streamUITests";
+			productReference = 90FCDA101C1F2597006728DA /* kmuc-streamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90FCD9E41C1F2596006728DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nathan Lawrence";
+				TargetAttributes = {
+					90FCD9EB1C1F2596006728DA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					90FCDA041C1F2597006728DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 90FCD9EB1C1F2596006728DA;
+					};
+					90FCDA0F1C1F2597006728DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 90FCD9EB1C1F2596006728DA;
+					};
+				};
+			};
+			buildConfigurationList = 90FCD9E71C1F2596006728DA /* Build configuration list for PBXProject "kmuc-stream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90FCD9E31C1F2596006728DA;
+			productRefGroup = 90FCD9ED1C1F2596006728DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90FCD9EB1C1F2596006728DA /* kmuc-stream */,
+				90FCDA041C1F2597006728DA /* kmuc-streamTests */,
+				90FCDA0F1C1F2597006728DA /* kmuc-streamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90FCD9EA1C1F2596006728DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FCD9FF1C1F2597006728DA /* LaunchScreen.storyboard in Resources */,
+				90FCD9FC1C1F2597006728DA /* Assets.xcassets in Resources */,
+				90FCD9FA1C1F2597006728DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FCDA031C1F2597006728DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FCDA0E1C1F2597006728DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90FCD9E81C1F2596006728DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FCD9F71C1F2596006728DA /* ViewController.m in Sources */,
+				90FCD9F41C1F2596006728DA /* AppDelegate.m in Sources */,
+				90FCD9F11C1F2596006728DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FCDA011C1F2597006728DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FCDA0A1C1F2597006728DA /* kmuc_streamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FCDA0C1C1F2597006728DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FCDA151C1F2597006728DA /* kmuc_streamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90FCDA071C1F2597006728DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90FCD9EB1C1F2596006728DA /* kmuc-stream */;
+			targetProxy = 90FCDA061C1F2597006728DA /* PBXContainerItemProxy */;
+		};
+		90FCDA121C1F2597006728DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90FCD9EB1C1F2596006728DA /* kmuc-stream */;
+			targetProxy = 90FCDA111C1F2597006728DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90FCD9F81C1F2597006728DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90FCD9F91C1F2597006728DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90FCD9FD1C1F2597006728DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90FCD9FE1C1F2597006728DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90FCDA171C1F2597006728DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90FCDA181C1F2597006728DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90FCDA1A1C1F2597006728DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kmuc-stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kmuc-stream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90FCDA1B1C1F2597006728DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kmuc-stream/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kmuc-stream";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90FCDA1D1C1F2597006728DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "kmuc-streamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kmuc-streamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kmuc-stream.app/kmuc-stream";
+			};
+			name = Debug;
+		};
+		90FCDA1E1C1F2597006728DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "kmuc-streamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kmuc-streamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kmuc-stream.app/kmuc-stream";
+			};
+			name = Release;
+		};
+		90FCDA201C1F2597006728DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "kmuc-streamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kmuc-streamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "kmuc-stream";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		90FCDA211C1F2597006728DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "kmuc-streamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kbia.kmuc-streamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "kmuc-stream";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90FCD9E71C1F2596006728DA /* Build configuration list for PBXProject "kmuc-stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90FCDA171C1F2597006728DA /* Debug */,
+				90FCDA181C1F2597006728DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90FCDA191C1F2597006728DA /* Build configuration list for PBXNativeTarget "kmuc-stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90FCDA1A1C1F2597006728DA /* Debug */,
+				90FCDA1B1C1F2597006728DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90FCDA1C1C1F2597006728DA /* Build configuration list for PBXNativeTarget "kmuc-streamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90FCDA1D1C1F2597006728DA /* Debug */,
+				90FCDA1E1C1F2597006728DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90FCDA1F1C1F2597006728DA /* Build configuration list for PBXNativeTarget "kmuc-streamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90FCDA201C1F2597006728DA /* Debug */,
+				90FCDA211C1F2597006728DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90FCD9E41C1F2596006728DA /* Project object */;
+}
