@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "90FCD9EB1C1F2596006728DA"
-               BuildableName = "kmuc-stream.app"
+               BuildableName = "kmuc.temp_caseinsensitive_rename-stream.app"
                BlueprintName = "kmuc-stream"
-               ReferencedContainer = "container:kmuc-stream.xcodeproj">
+               ReferencedContainer = "container:kmuc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "90FCDA041C1F2597006728DA"
-               BuildableName = "kmuc-streamTests.xctest"
+               BuildableName = "kmuc.temp_caseinsensitive_rename-stream.xctest"
                BlueprintName = "kmuc-streamTests"
-               ReferencedContainer = "container:kmuc-stream.xcodeproj">
+               ReferencedContainer = "container:kmuc.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "90FCDA0F1C1F2597006728DA"
-               BuildableName = "kmuc-streamUITests.xctest"
+               BuildableName = "kmuc.temp_caseinsensitive_rename-stream.xctest"
                BlueprintName = "kmuc-streamUITests"
-               ReferencedContainer = "container:kmuc-stream.xcodeproj">
+               ReferencedContainer = "container:kmuc.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90FCD9EB1C1F2596006728DA"
-            BuildableName = "kmuc-stream.app"
+            BuildableName = "kmuc.temp_caseinsensitive_rename-stream.app"
             BlueprintName = "kmuc-stream"
-            ReferencedContainer = "container:kmuc-stream.xcodeproj">
+            ReferencedContainer = "container:kmuc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90FCD9EB1C1F2596006728DA"
-            BuildableName = "kmuc-stream.app"
+            BuildableName = "kmuc.temp_caseinsensitive_rename-stream.app"
             BlueprintName = "kmuc-stream"
-            ReferencedContainer = "container:kmuc-stream.xcodeproj">
+            ReferencedContainer = "container:kmuc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90FCD9EB1C1F2596006728DA"
-            BuildableName = "kmuc-stream.app"
+            BuildableName = "kmuc.temp_caseinsensitive_rename-stream.app"
             BlueprintName = "kmuc-stream"
-            ReferencedContainer = "container:kmuc-stream.xcodeproj">
+            ReferencedContainer = "container:kmuc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:kmuc-stream.xcodeproj">
+      location = "self:/Users/nathanlawrence/Documents/KBIA Dev/kmuc-stream/kmuc.xcodeproj">
    </FileRef>
 </Workspace>
